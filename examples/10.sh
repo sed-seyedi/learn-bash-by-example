@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# parameter expansion
-name=bash;
-echo ${name} is awesome;
-echo "${name} is awesome";
+x=2
+y="2"
+echo $(($x + $y))
